@@ -1,7 +1,9 @@
 # ML_Heart_Health_Predictor
 ❤️ Heart Disease Prediction using Machine Learning and Streamlit
 <p align="center">
-  <img src="assets/Screenshot 2025-09-11 015935.png" alt="App Screenshot" width="500"/>
+  <img src="assets/Screenshot 2025-09-11 015935.png" width="700" alt="Streamlit app home screen"/>
+  <br>
+  <em>Figure 1: Streamlit App - Home Screen</em>
 </p>
 # About Project
 This project develops a machine learning pipeline to predict the likelihood of heart disease based on clinical features. It extends classroom learning into a real-world healthcare problem by building, evaluating, and deploying models using Python and Streamlit. The final solution enables both clinicians and the general public to perform quick preliminary screenings using a simple web interface.
@@ -148,8 +150,23 @@ A Streamlit web app was developed where users can input values such as age, chol
 # Deployed Version 
 Click here 👉 https://zaidmlheartproject1.streamlit.app/#enter-patient-details
 # Screenshots
-<p align="center"> <img src="assets/Screenshot 2025-09-11 015945.png" width="700" alt="Streamlit app input form"/> </p> <p align="center"> <img src="assets/result.png" width="700" alt="Prediction output"/> </p>
-<p align="center"> <img src="assets/Screenshot 2025-09-11 015513.png" width="700" alt="Streamlit app input form"/> </p> <p align="center"> <img src="assets/result.png" width="700" alt="Prediction output"/> </p>
+<p align="center">
+  <img src="assets/Screenshot 2025-09-11 015513.png" width="700" alt="Model training & preprocessing steps"/>
+  <br>
+  <em>Figure 2: Model Training and Preprocessing Steps</em>
+</p>
+
+<p align="center">
+  <img src="assets/Screenshot 2025-09-11 015945.png" width="700" alt="Streamlit app input form"/>
+  <br>
+  <em>Figure 3: User Input Form</em>
+</p>
+
+<p align="center">
+  <img src="assets/result.png" width="700" alt="Prediction result"/>
+  <br>
+  <em>Figure 4: Prediction Output (Risk Result)</em>
+</p>
 
 # Acknowledgement
 
