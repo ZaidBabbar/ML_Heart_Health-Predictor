@@ -24,6 +24,7 @@ Dependence on medical specialists for interpretation.
 Limited awareness among non-medical individuals.
 
 Thus, the need arises for a machine learning-based predictive tool that can take basic health attributes (like age, cholesterol, blood pressure) and output a risk prediction.
+
 # Objective
 
 The main objectives of this project are:
@@ -58,29 +59,29 @@ Dataset: UCI / Kaggle Heart Disease Dataset
 
 Records: ~303 patient entries
 
-Features include:
+# Features include:
 
-# age 
+ age 
 — Age of patient
 
-# sex
+ sex
 — Gender (1 = Male, 0 = Female)
 
-# cp 
+ cp 
 — Chest pain type
 
-# chol
+ chol
 — Serum cholesterol level
 
-# trestbps
+ trestbps
 — Resting blood pressure
 
-# thalach
+ thalach
 — Maximum heart rate achieved
 
 …and others (total ~13 features)
 
-# Target:
+ Target:
 0 = No Heart Disease, 1 = Heart Disease
 
 # Methodology
