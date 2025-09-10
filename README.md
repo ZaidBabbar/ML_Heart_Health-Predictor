@@ -1,10 +1,7 @@
 # ML_Heart_Health_Predictor
 ❤️ Heart Disease Prediction using Machine Learning and Streamlit
-<p align="center">
-  <img src="assets/Screenshot 2025-09-11 015935.png" width="700" alt="Streamlit app home screen"/>
-  <br>
-  <em>Figure 1: Streamlit App - Home Screen</em>
-</p>
+![Streamlit App Home](assets/Screenshot-2025-09-11-015935.png)
+
 # About Project
 This project develops a machine learning pipeline to predict the likelihood of heart disease based on clinical features. It extends classroom learning into a real-world healthcare problem by building, evaluating, and deploying models using Python and Streamlit. The final solution enables both clinicians and the general public to perform quick preliminary screenings using a simple web interface.
 
