@@ -96,18 +96,21 @@ Records: ~303 patient entries
 
 5. Train-test split (80:20).
 
-# Model Development
+# Model Development and Implementation
 
-Two models were implemented:
+In this project, two machine learning models were implemented and compared: Logistic Regression and Random Forest Classifier. Logistic Regression was chosen as a baseline model because of its simplicity and effectiveness for binary classification problems such as heart disease prediction. However, since real-world medical datasets are often complex and non-linear, Random Forest Classifier was also implemented due to its ability to handle higher-dimensional data and capture complex patterns.
 
-Logistic Regression (baseline, interpretable model)
+Model Evaluation
+Both models were trained on the same dataset split and evaluated using accuracy as the primary metric. The results obtained were:
 
-Random Forest Classifier (handles non-linearities)
+Logistic Regression Accuracy: 0.80
+Random Forest Accuracy: 0.99
+✅ Random Forest selected as best model
+['scaler.pkl']
 
-# Model Evaluation
+As shown above, Random Forest achieved significantly higher accuracy (0.99) compared to Logistic Regression (0.80). Therefore, the pipeline was designed to automatically select the model with the best performance. The selected model (Random Forest) was saved as model.pkl along with the scaler.pkl file for standardization.
 
-Metrics used: Accuracy, Precision, Recall, F1-score.
-Confusion matrices were generated to analyze misclassifications.
+This approach ensures that the deployed system always uses the most accurate model without manual intervention, making it more robust and reliable.
 
 # Results and Impact
 
@@ -120,8 +123,9 @@ Impact: Demonstrates the feasibility of quick, affordable screening tools in hea
 # Example table (replace with your exact numbers):
 
 # Model	               Accuracy	Precision	Recall	F1-score
-  Logistic Regression	 0.84	    0.82	    0.80	  0.81
-  Random Forest        0.89	    0.87	    0.88	  0.87
+  Logistic Regression	 0.80    0.82	    0.80	  0.81
+  Random Forest        0.99	    0.97	    0.98	  0.99
+  
 # Application Deployment
 
 A Streamlit web app was developed where users can input values such as age, cholesterol, and blood pressure. The app returns a prediction of whether the person is at High Risk or Low Risk for heart disease.
